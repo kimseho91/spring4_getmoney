@@ -16,6 +16,7 @@ import lombok.Data;
 	    	System.out.println("command 도착");
 	        this.view = String.format(Constants.DOUBLE_PATH,"facade",
 	               "main");
+	        
 	        System.out.println(this.view);
 
 }

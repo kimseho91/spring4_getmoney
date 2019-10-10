@@ -1,0 +1,14 @@
+1570691947646	Delete elements
+1570692054278	Delete elements
+1570692060091	Delete element
+1570692105051	Delete element
+1570693099740	Rename package 'com.web.bran.command'
+1570693111850	Rename package 'com.bran.command.web'
+1570693124882	Rename package 'com.web.bran.controller'
+1570693149585	Rename package 'com.web.bran.daos'
+1570693162655	Rename package 'com.web.bran.domains'
+1570693176697	Rename package 'com.web.bran.enums'
+1570693188408	Rename package 'com.web.bran.factory'
+1570693199182	Rename package 'com.web.bran.pool'
+1570693210354	Rename package 'com.web.bran.serviceimpls'
+1570693218216	Rename package 'com.web.bran.services'

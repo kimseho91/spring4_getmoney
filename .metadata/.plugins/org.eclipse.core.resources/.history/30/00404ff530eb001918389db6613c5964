@@ -1,0 +1,6 @@
+package com.bran.command.web;
+
+public interface Order {
+    public void execute();
+
+}

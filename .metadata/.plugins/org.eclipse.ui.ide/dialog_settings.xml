@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<list key="installedFeatures">
 		<item value="com.ianbrandt.tools.m2e.mdp.feature:0.0.4.201409291703"/>
+		<item value="com.tomato.exerd.feature:2.5.7.20190719-1507"/>
 		<item value="org.aspectj:1.8.13.201803231521"/>
 		<item value="org.eclipse.ajdt:2.2.4.201803231521"/>
 		<item value="org.eclipse.cft.server.core.feature:1.2.3.v201709130027"/>

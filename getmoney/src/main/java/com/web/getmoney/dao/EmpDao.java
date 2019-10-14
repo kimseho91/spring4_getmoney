@@ -1,12 +1,14 @@
 package com.web.getmoney.dao;
 
-import com.web.getmoney.domains.EmpBean;
+import org.springframework.stereotype.Repository;
+import com.web.getmoney.domains.EmpDTO;
 
+@Repository
 public interface EmpDao {
 	
-	public boolean insertEmpBean(EmpBean param);
+	public boolean insertEmpBean(EmpDTO param);
 	
-	public EmpBean selectbyLoginData(EmpBean param);
+	public EmpDTO selectbyLoginData(EmpDTO param);
 	
 	
 }

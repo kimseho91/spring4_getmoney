@@ -28,5 +28,6 @@ public class CustomerController {
 	public String findCustomerId(@RequestParam("mid") String mid,
 			@RequestParam("mpw") String mpw) {
 		return "home";
+		// test
 	}
 }

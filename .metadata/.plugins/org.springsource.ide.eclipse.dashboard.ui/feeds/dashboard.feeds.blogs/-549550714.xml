@@ -5,7 +5,40 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2019-10-14T16:43:00Z</updated>
+  <updated>2019-10-15T04:37:13Z</updated>
+  <entry>
+    <title>This Week in Spring - October 14th, 2019</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/10/15/this-week-in-spring-october-14th-2019" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2019-10-15:3835</id>
+    <updated>2019-10-15T04:37:13Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! WHEW! What a week! Last week was the &lt;em&gt;insane&lt;/em&gt; SpringOne Platform 2019 event, from which I am &lt;em&gt;still&lt;/em&gt; recovering! Then I flew home, hosted Spring team member and Micrometer lead and friend Tommy Ludwig in San Francisco, and prepared to fly out for meetings and user group appearances on Monday (in Stuttgart, Germany) and Tuesday (in Amsterdam). &lt;/p&gt;
+&lt;p&gt;I prepared, and got into the Uber going to San Francisco airport when I got a call from my brother saying my 81-year-old dad wasn&amp;rsquo;t doing well (thanks to everyone for the well-wishes!) and was rushed to the hospital. I had to, regretfully, cancel my live appearances in those countries. I am SO sorry for those I disappointed. I was very happy to be able to do a few of those meetings remotely. Thanks to everyone who indulged me and supported me as I flew to Los Angeles to be with my father.&lt;/p&gt;
+&lt;p&gt;Anyway, friends, tons of stuff to get to this week! &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/10/14/spring-cloud-stream-demystified-and-simplified"&gt;Spring Cloud Stream - demystified and simplified&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/10/14/spring-initializr-0-8-0-available-now"&gt;Spring Initializr 0.8.0 available now&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/10/11/a-bootiful-podcast-spring-mad-scientist-andy-clement-on-aspectj-spel-eclipse-graal-and-more"&gt;A Bootiful Podcast: Spring mad scientist Andy Clement on AspectJ, SpEL, Eclipse, Graal and more&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://content.pivotal.io/blog/azure-spring-cloud-a-new-way-to-run-spring-boot-apps-atop-kubernetes"&gt;Azure Spring Cloud: A New Way to Run Spring Boot Apps Atop Kubernetes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Want to see a &lt;em&gt;really&lt;/em&gt; compelling demo &lt;a href="https://www.linkedin.com/posts/pivotal-software-inc._dicks-sporting-goods-does-a-live-production-activity-6588191097191743488-sPDE/"&gt;for Pivotal PAS (a CLoud Foundry distro)? Watch &lt;em&gt;Dick&amp;rsquo;s Sporting Goods&lt;/em&gt; show you how it&amp;rsquo;s done&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://dutchitchannel.nl/632678/pivotal-en-microsoft-introduceren-private-preview-van-azure-spring-cloud.html"&gt;Pivotal and Microsoft are introducing preview versions of Azure Spring Cloud (Dutch article)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/aless_falappa/status/1183412994006507520?s=12"&gt;As usual I love the updates being done in the Spring Boot support for Netbeans&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I love the Jetbrains team&amp;rsquo;s Roman Elizarov&amp;rsquo;s epic &lt;a href="https://twitter.com/relizarov/status/1183306431812034560"&gt;explainer on all things Kotlin and coroutines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://dev.to/azure/add-real-time-to-your-java-app-with-azure-signalr-service-3p8"&gt;Add Real-time to your Java App with Azure SignalR Service - DEV Community &#x1f469;?&#x1f4bb;&#x1f468;?&#x1f4bb;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Learn more about Azure Spring Cloud &lt;a href="https://azure.microsoft.com/en-us/blog/introducing-azure-spring-cloud-fully-managed-service-for-spring-boot-microservices/"&gt;and sign up for the private beta&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://medium.com/swlh/spring-data-jpa-projection-support-for-native-queries-a13cd88ec166"&gt;Spring Data JPA Projection support for native queries&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Last week Dr. Syer, Juergen Hoeller and &lt;a href="https://twitter.com/wattersjames/status/1182055158743752705"&gt;I hung out at the Azure Spring Cloud booth at SpringOne Platform 2019&lt;/a&gt;. It was fun. And production-centric.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.pscp.tv/w/1mnxezwrOAnKX?t=5m22s"&gt;I love this interview with, among others Joe Beda and James Watters; enjoy!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/badnima/status/1181935983979307008?s=12"&gt;I had so much fun emceeing the keynote presentation this year at SpringOne Platform&lt;/a&gt;. Thanks everyone for making it fun, despite my terrible jokes! I got to hang out with &lt;a href="https://twitter.com/starbuxman/status/1181960300775522304?s=12"&gt;some of my favorite people&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Interesting post on Azure Spring Cloud on the Register: &lt;a href="https://www.theregister.co.uk/AMP/2019/10/09/azure_spring_cloud/?__twitter_impression=true"&gt;through the winds of winter, Microsoft sees a dream of spring&amp;hellip; Azure Spring Cloud, that is &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/wattersjames/status/1181947825615179782?s=12"&gt;Want to know why Netflix is using Spring Boot?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/aclairefication/status/1181950198056132615?s=12"&gt;Want a great recap of a lot of the content from last week, at SpringOne Platform?&lt;/a&gt; Check out the tweets from @aclairefication. I did! That&amp;rsquo;s how I learned that, according to Stephane Maldini, the &lt;a href="https://twitter.com/aclairefication/status/1181950198056132615"&gt;Spring team cloned me and sent me all around the world&lt;/a&gt;! I HAVE A CLONE WOOHOOO!! :-D&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Spring Cloud Stream - demystified and simplified</title>
     <link rel="alternate" href="https://spring.io/blog/2019/10/14/spring-cloud-stream-demystified-and-simplified" />
@@ -1377,160 +1410,6 @@ A preview version is available on Maven Central as well:&lt;/p&gt;
 &lt;a href="http://docs.spring.io/spring-security/site/docs/5.2.0.RELEASE/reference/htmlsingle/"&gt;Reference&lt;/a&gt;
 | &lt;a href="http://stackoverflow.com/questions/tagged/spring-security"&gt;Help&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Data R2DBC 1.0 RC1 released</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/10/01/spring-data-r2dbc-1-0-rc1-released" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Mark Paluch</name>
-    </author>
-    <id>tag:spring.io,2019-09-27:3808</id>
-    <updated>2019-10-01T14:19:00Z</updated>
-    <content type="html">&lt;p&gt;On behalf of the team and everyone that contributed, I am pleased to announce that the first release candidate of Spring Data R2DBC 1.0 has been released and is available from our milestone repository. This release contains 60 issues and pull requests. It upgrades its baseline to R2DBC 0.8 RC1 and Spring Data Moore GA.&lt;/p&gt;
-&lt;p&gt;The most notable features are:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;code&gt;ConnectionFactory&lt;/code&gt; routing through &lt;code&gt;AbstractRoutingConnectionFactory&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Utilities for schema initialization through &lt;code&gt;ResourceDatabasePopulator&lt;/code&gt; and &lt;code&gt;ScriptUtils&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Propagation and reset of Auto-Commit and Isolation Level control through &lt;code&gt;TransactionDefinition&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Support for Entity-level converters.&lt;/li&gt;
-  &lt;li&gt;Kotlin extensions for reified generics and Coroutines.&lt;/li&gt;
-  &lt;li&gt;Add pluggable mechanism to register dialects.&lt;/li&gt;
-  &lt;li&gt;API refinements.&lt;/li&gt;
-&lt;/ul&gt;&lt;h2&gt;&lt;a href="#code-connectionfactory-code-routing" class="anchor" name="code-connectionfactory-code-routing"&gt;&lt;/a&gt;&lt;code&gt;ConnectionFactory&lt;/code&gt; Routing&lt;/h2&gt;
-&lt;p&gt;For each operation, &lt;code&gt;DatabaseClient&lt;/code&gt; obtains a &lt;code&gt;Connection&lt;/code&gt; from the &lt;code&gt;ConnectionFactory&lt;/code&gt; that is used to create &lt;code&gt;DatabaseClient&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;The general idea is that a routing &lt;code&gt;ConnectionFactory&lt;/code&gt; acts as an intermediary - while the ¡®real¡¯ &lt;code&gt;ConnectionFactory&lt;/code&gt; is determined dynamically at runtime based on a lookup key. One potential use case is for catering to multi-tenancy by using multiple &lt;code&gt;ConnectionFactory&lt;/code&gt; instances that point to a separate database. For a routing &lt;code&gt;ConnectionFactory&lt;/code&gt; to determine which &lt;code&gt;ConnectionFactory&lt;/code&gt; to use, it requires contextual information. Spring Data R2DBC comes with an &lt;code&gt;AbstractRoutingConnectionFactory&lt;/code&gt; that can return a lookup key that is used to look up the right &lt;code&gt;ConnectionFactory&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Reactive flows can attach contextual information to the subscription by using Project Reactor&amp;rsquo;s &lt;a href="https://projectreactor.io/docs/core/release/reference/#context"&gt;&lt;code&gt;Context&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;An example implementation for a routing &lt;code&gt;ConnectionFactory&lt;/code&gt; might look like the following listing:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint java"&gt;class RoutingConnectionFactory extends AbstractRoutingConnectionFactory {&#xD;
-&#xD;
-    public static final String ROUTING_KEY = &amp;quot;routing-key&amp;quot;;&#xD;
-&#xD;
-    @Override&#xD;
-    protected Mono&amp;lt;Object&amp;gt; determineCurrentLookupKey() {&#xD;
-        return Mono.subscriberContext().filter(it -&amp;gt; it.hasKey(ROUTING_KEY)).map(it -&amp;gt; it.get(ROUTING_KEY));&#xD;
-    }&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The following listing shows how to initialize the connection factory a map between the lookup key and the target &lt;code&gt;ConnectionFactory&lt;/code&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint java"&gt;RoutingConnectionFactory connectionFactory = new RoutingConnectionFactory();&#xD;
-Map&amp;lt;String, ConnectionFactory&amp;gt; factories = new HashMap&amp;lt;&amp;gt;();&#xD;
-factories.put(&amp;quot;customer1&amp;quot;, ¡¦);&#xD;
-factories.put(&amp;quot;customer2&amp;quot;, ¡¦);&#xD;
-connectionFactory.setTargetConnectionFactories(factories);&#xD;
-connectionFactory.afterPropertiesSet();
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You can create a &lt;code&gt;DatabaseClient&lt;/code&gt; by using the routing &lt;code&gt;ConnectionFactory&lt;/code&gt; to determine the appropriate &lt;code&gt;ConnectionFactory&lt;/code&gt; for each subscription.&lt;br/&gt;The routing key itself gets attached to the &lt;code&gt;Context&lt;/code&gt; and is evaluated by &lt;code&gt;RoutingConnectionFactory&lt;/code&gt;, as the following listing shows:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint java"&gt;DatabaseClient client = DatabaseClient.create(connectionFactory);&#xD;
-&#xD;
-Context routingContext = Context.of(ROUTING_KEY, &amp;quot;customer1&amp;quot;);&#xD;
-&#xD;
-Flux&amp;lt;User&amp;gt; users = client.execute(&amp;quot;SELECT first_name, last_name FROM user&amp;quot;)&#xD;
-                .as(User.class)&#xD;
-                .fetch()&#xD;
-                .all()&#xD;
-                .subscriberContext(routingContext);
-&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;&lt;a href="#schema-initialization" class="anchor" name="schema-initialization"&gt;&lt;/a&gt;Schema Initialization&lt;/h2&gt;
-&lt;p&gt;The &lt;code&gt;org.springframework.data.r2dbc.connectionfactory.init&lt;/code&gt; package provides support for initializing an existing &lt;code&gt;ConnectionFactory&lt;/code&gt;. You may sometimes need to initialize an instance that runs on a server somewhere or that is an embedded database. The following listing shows how to register and configure a &lt;code&gt;ConnectionFactoryInitializer&lt;/code&gt; bean to initialize your database through a &lt;code&gt;ConnectionFactory&lt;/code&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint java"&gt;@Configuration&#xD;
-public class InitializerConfiguration {&#xD;
-&#xD;
-  @Bean&#xD;
-  public ConnectionFactoryInitializer initializer(ConnectionFactory connectionFactory) {&#xD;
-&#xD;
-    ConnectionFactoryInitializer initializer = new ConnectionFactoryInitializer();&#xD;
-    initializer.setConnectionFactory(connectionFactory);&#xD;
-&#xD;
-    CompositeDatabasePopulator populator = new CompositeDatabasePopulator();&#xD;
-    populator.addPopulators(new ResourceDatabasePopulator(new ClassPathResource(&amp;quot;com/foo/sql/db-schema.sql&amp;quot;)));&#xD;
-    populator.addPopulators(new ResourceDatabasePopulator(new ClassPathResource(&amp;quot;com/foo/sql/test-data1.sql&amp;quot;)));&#xD;
-    initializer.setDatabasePopulator(populator);&#xD;
-&#xD;
-    return initializer;&#xD;
-  }&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This initialization support is used by Spring Boot R2DBC auto-configuration to apply &lt;code&gt;schema.sql&lt;/code&gt; and &lt;code&gt;data.sql&lt;/code&gt; to the configured &lt;code&gt;ConnectionFactory&lt;/code&gt;.&lt;/p&gt;&lt;h2&gt;&lt;a href="#kotlin-extensions" class="anchor" name="kotlin-extensions"&gt;&lt;/a&gt;Kotlin Extensions&lt;/h2&gt;
-&lt;p&gt;This release ships with Kotlin extensions for idiomatic usage of Spring Data R2DBC when developing applications with Kotlin.&lt;/p&gt;
-&lt;p&gt;Spring Data R2DBC provides the following extensions:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Reified generics support for &lt;code&gt;DatabaseClient&lt;/code&gt; and &lt;code&gt;Criteria&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Kotlin Coroutines support for &lt;code&gt;DatabaseClient&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;To retrieve a list of &lt;code&gt;User&lt;/code&gt; objects in Java, you would normally write the following:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint java"&gt;Flux&amp;lt;User&amp;gt; characters = client.select().from(User.class).fetch().all();
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;With Kotlin and the Spring Data extensions, you can instead write the following:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint kotlin"&gt;val users =  client.select().from&amp;lt;User&amp;gt;().fetch().all()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Kotlin Coroutines are Kotlin lightweight threads that allow writing non-blocking code in an imperative style.&lt;br/&gt;Spring Data R2DBC&amp;rsquo;s Coroutines extensions leverages the reactive infrastructure to expose functions you can &lt;code&gt;suspend&lt;/code&gt; and bridge &lt;code&gt;Flux&lt;/code&gt; results into Kotlin&amp;rsquo;s &lt;code&gt;Flow&lt;/code&gt; type.&lt;/p&gt;
-&lt;p&gt;The following example shows Coroutine usage with Spring Framework&amp;rsquo;s &lt;code&gt;TransactionalOperator&lt;/code&gt; to atomically insert two rows:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint kotlin"&gt;operator.executeAndAwait {&#xD;
-  client.execute(&amp;quot;INSERT INTO person VALUES(:first_name, :last_name)&amp;quot;)&#xD;
-        .bind(&amp;quot;first_name&amp;quot;, &amp;quot;John&amp;quot;)&#xD;
-        .bind(&amp;quot;last_name&amp;quot;, &amp;quot;Doe&amp;quot;)&#xD;
-        .await()&#xD;
-  client.execute(&amp;quot;INSERT INTO person_events VALUES(:first_name, :last_name, :event_type)&amp;quot;)&#xD;
-        .bind(&amp;quot;first_name&amp;quot;, &amp;quot;John&amp;quot;)&#xD;
-        .bind(&amp;quot;last_name&amp;quot;, &amp;quot;Doe&amp;quot;)&#xD;
-        .bind(&amp;quot;event_type&amp;quot;, &amp;quot;CREATED&amp;quot;)&#xD;
-        .await()&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Note that most &lt;code&gt;suspend&lt;/code&gt; methods end with &lt;code&gt;await&lt;/code&gt;, as an indicator for Coroutines methods.&lt;/p&gt;&lt;h2&gt;&lt;a href="#pluggable-dialects" class="anchor" name="pluggable-dialects"&gt;&lt;/a&gt;Pluggable Dialects&lt;/h2&gt;
-&lt;p&gt;As of now, the R2DBC driver eco-system consists of only a few known drivers, but the number of drivers is growing. To enable seamless integration with additional drivers, Spring Data R2DBC exposes an extension point for &lt;code&gt;R2dbcDialect&lt;/code&gt; registration. Spring Data R2DBC can auto-discover a &lt;code&gt;R2dbcDialect&lt;/code&gt; by registering a class that implements &lt;code&gt;org.springframework.data.r2dbc.dialect.DialectResolver$R2dbcDialectProvider&lt;/code&gt; through Spring&amp;rsquo;s &lt;code&gt;META-INF/spring.factories&lt;/code&gt; mechanism. The following listing shows how to do so:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint java"&gt;public class MyDialectProvider implements DialectResolver.R2dbcDialectProvider {&#xD;
-&#xD;
-    @Override&#xD;
-    public Optional&amp;lt;R2dbcDialect&amp;gt; getDialect(ConnectionFactory connectionFactory) {&#xD;
-&#xD;
-        if (connectionFactory.getMetadata().getName().equals(&amp;quot;my-dastabase&amp;quot;)) {&#xD;
-            return Optional.of(¡¦);&#xD;
-        }&#xD;
-        return Optional.empty();&#xD;
-    }&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;spring.factories&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint java"&gt;org.springframework.data.r2dbc.dialect.DialectResolver$R2dbcDialectProvider=com.example.MyDialectProvider
-&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;&lt;a href="#artifact-coordinates" class="anchor" name="artifact-coordinates"&gt;&lt;/a&gt;Artifact Coordinates&lt;/h2&gt;
-&lt;p&gt;If you use Maven, add the following lines to your &lt;code&gt;pom.xml&lt;/code&gt; file to upgrade to Spring Data R2DBC 1.0 RC1:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint xml"&gt;&amp;lt;dependencies&amp;gt;&#xD;
-  &amp;lt;dependency&amp;gt;&#xD;
-    &amp;lt;groupId&amp;gt;org.springframework.data&amp;lt;/groupId&amp;gt;&#xD;
-    &amp;lt;artifactId&amp;gt;spring-data-r2dbc&amp;lt;/artifactId&amp;gt;&#xD;
-    &amp;lt;version&amp;gt;1.0.0.RC1&amp;lt;/version&amp;gt;&#xD;
-  &amp;lt;/dependency&amp;gt;&#xD;
-&amp;lt;/dependencies&amp;gt;&#xD;
-&#xD;
-&amp;lt;!-- R2DBC 0.8.0.RC1 required --&amp;gt;&#xD;
-&amp;lt;dependencyManagement&amp;gt;&#xD;
-  &amp;lt;dependencies&amp;gt;&#xD;
-    &amp;lt;dependency&amp;gt;&#xD;
-      &amp;lt;groupId&amp;gt;io.r2dbc&amp;lt;/groupId&amp;gt;&#xD;
-      &amp;lt;artifactId&amp;gt;r2dbc-bom&amp;lt;/artifactId&amp;gt;&#xD;
-      &amp;lt;version&amp;gt;Arabba-RC1&amp;lt;/version&amp;gt;&#xD;
-      &amp;lt;type&amp;gt;pom&amp;lt;/type&amp;gt;&#xD;
-      &amp;lt;scope&amp;gt;import&amp;lt;/scope&amp;gt;&#xD;
-    &amp;lt;/dependency&amp;gt;&#xD;
-  &amp;lt;/dependencies&amp;gt;&#xD;
-&amp;lt;/dependencyManagement&amp;gt;&#xD;
-&#xD;
-&amp;lt;repositories&amp;gt;&#xD;
-  &amp;lt;repository&amp;gt;&#xD;
-    &amp;lt;id&amp;gt;spring-milestone&amp;lt;/id&amp;gt;&#xD;
-    &amp;lt;url&amp;gt;https://repo.spring.io/milestone&amp;lt;/url&amp;gt;&#xD;
-  &amp;lt;/repository&amp;gt;&#xD;
-&amp;lt;/repositories&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;&lt;a href="#next-steps" class="anchor" name="next-steps"&gt;&lt;/a&gt;Next steps&lt;/h2&gt;
-&lt;p&gt;R2DBC 0.8.0 RC1 was recently released, and we expect a GA release later this year. We&amp;rsquo;re working towards a Spring Data R2DBC 1.0 GA release and will ship the next release once R2DBC itself is GA.&lt;br/&gt;Our backlog contains a series of enhancements, such as query derivation, optimistic locking, and allowing for query interception to alter bindings and SQL statements before they get executed.&lt;/p&gt;
-&lt;p&gt;To round things off, here are links to the changelog, GitHub repository, and docs:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Project Repository: &lt;a href="https://github.com/spring-projects/spring-data-r2dbc"&gt;github.com/spring-projects/spring-data-r2dbc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Issue Tracker: &lt;a href="https://github.com/spring-projects/spring-data-r2dbc/issues"&gt;github.com/spring-projects/spring-data-r2dbc/issues&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-r2dbc/1.0.0.RC1/"&gt;Artifacts&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/r2dbc/docs/1.0.0.RC1/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/r2dbc/docs/1.0.0.RC1/reference/html/"&gt;Documentation&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/r2dbc/docs/1.0.0.RC1/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>

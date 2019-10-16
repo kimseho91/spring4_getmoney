@@ -8,7 +8,7 @@ auth = (()=>{
 	}
 	let onCreate =()=>{
 		init();
-		$('#a_go_join').on('click',()=>{
+		$('#a_go_join').click(()=>{
 			alert('회원가입 클릭 !!');
 		});
 	}

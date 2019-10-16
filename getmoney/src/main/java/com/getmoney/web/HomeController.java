@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-
 import com.getmoney.web.serviceimpls.CustomerServiceImpl;
 
 /**
@@ -25,6 +24,6 @@ public class HomeController {
 		logger.info("Welcome  {}.", "HomeController");
 		int count = customerService.countCustomers();
 		model.addAttribute("count", count );
-		return "home";
+		return "index";
 	}
 }

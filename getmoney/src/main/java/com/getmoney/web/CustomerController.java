@@ -27,7 +27,7 @@ public class CustomerController {
 	@GetMapping("/info")
 	public String findCustomerId(@RequestParam("mid") String mid,
 			@RequestParam("mpw") String mpw) {
-		return "home";
+		return "index";
 		// test
 	}
 }

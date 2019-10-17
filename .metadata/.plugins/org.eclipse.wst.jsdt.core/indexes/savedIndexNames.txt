@@ -4,7 +4,6 @@ INDEX VERSION 1.4+C:\Users\User\workspace\sts_workspace\.metadata\.plugins\org.e
 2365031771.index
 3238962461.index
 4268972404.index
-4281305333.index
 2424424194.index
 1469920920.index
 1987885934.index

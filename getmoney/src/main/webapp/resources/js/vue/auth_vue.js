@@ -49,7 +49,7 @@ auth_vue = {
 		'</style>'+	
 		'<div class="container">'+
 			'  <div class="py-5 text-center">'+
-		    '<img class="d-block mx-auto mb-4" src="<%=application.getContextPath() %>/resources/img/bootstrap-solid.svg" alt="" width="72" height="72">'+
+		    '<img class="d-block mx-auto mb-4" src="/web/resources/img/bootstrap-solid.svg" alt="" width="72" height="72">'+
 		'    <h2>Checkout form</h2>'+
 		'    <p class="lead"></p>'+
 		'  </div>'+

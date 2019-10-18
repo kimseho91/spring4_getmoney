@@ -21,7 +21,7 @@ public class HomeController {
 	
 	@GetMapping("/")
 	public String home(Locale locale, Model model) {
-		logger.info("Welcome  {}.", "HomeController");
+//		logger.info("Welcome  {}.", "HomeController");
 		int count = customerService.countCustomers();
 		model.addAttribute("count", count );
 		return "index";

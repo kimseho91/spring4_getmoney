@@ -44,4 +44,13 @@ public class CustomerController {
 		logger.info("map에 담긴 아이디 와 비번 {}",map.get("mid")+", "+map.get("mpw"));
 		return map;
 	}
+	@PostMapping("/login")
+	public @ResponseBody Map<?,?> login(@RequestBody CustomerDTO customer){
+		logger.info("Login AJAX가 보낸 아이디 와 비번 {}",customer.getMid()+", "+customer.getMpw());
+		HashMap<String,String> map = new HashMap<>();
+		map.put("mid", customer.getMid());
+		map.put("mpw", customer.getMpw());
+		logger.info("map2에 담긴 아이디 와 비번 {}",map.get("mid")+", "+map.get("mpw"));
+		return map;
+	}
 }

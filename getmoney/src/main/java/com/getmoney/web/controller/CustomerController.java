@@ -30,6 +30,7 @@ public class CustomerController {
 		cus.setMid(param.getMid());
 		cus.setMpw(param.getMpw());
 		cus.setMname(param.getMname());
+		cus.setEmail(param.getEmail());
 		customerService.join(cus);
 		HashMap<String,String> map2 = new HashMap<>();
 		map2.put("mid", param.getMid());

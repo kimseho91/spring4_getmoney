@@ -130,7 +130,7 @@ auth_vue = {
 		'            <div class="input-group-prepend">'+
 		'              <span class="input-group-text">@</span>'+
 		'            </div>'+
-		            '<input type="text" class="form-control" id="mname" placeholder="Mname" required="">'+
+		            '<input type="text" class="form-control" id="mname" placeholder="" required="">'+
 		'            <div class="invalid-feedback" style="width: 100%;">'+
 		'              Your mname is required.'+
 		'            </div>'+
@@ -138,7 +138,7 @@ auth_vue = {
 		'        </div>'+
 
 		'        <div class="mb-3">'+
-		          '<label for="email">Email <span class="text-muted">(Optional)</span></label>'+
+		          '<label for="email">Email<span class="text-muted">(Optional)</span></label>'+
 		          '<input type="email" class="form-control" id="email" placeholder="you@example.com">'+
 		'          <div class="invalid-feedback">'+
 		'            Please enter a valid email address for shipping updates.'+
@@ -312,10 +312,48 @@ auth_vue = {
 		'  </form>'+
 		'</body>'
 	},
-	mypage_head:()=>{
-		return '<h1>마이 페이지</h1>'
+	mypage_head:x=>{
+		return '<head>'+
+        '    <meta charset="utf-8">'+
+        '    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">'+
+        '    <meta name="description" content="">'+
+        '    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">'+
+        '    <meta name="generator" content="Jekyll v3.8.5">'+
+        '    <title>Checkout example · Bootstrap</title>'+
+        '    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/checkout/">'+
+        '    <!-- Bootstrap core CSS -->'+
+        '<link href="https://getbootstrap.com/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">'+
+        '    <style>'+
+        '      .bd-placeholder-img {'+
+        '        font-size: 1.125rem;'+
+        '        text-anchor: middle;'+
+        '        -webkit-user-select: none;'+
+        '        -moz-user-select: none;'+
+        '        -ms-user-select: none;'+
+        '        user-select: none;'+
+        '      }'+
+        '      @media (min-width: 768px) {'+
+        '        .bd-placeholder-img-lg {'+
+        '          font-size: 3.5rem;'+
+        '        }'+
+        '      }'+
+        '    </style>'+
+        '    <!-- Custom styles for this template -->'+
+        '    <link href="https://getbootstrap.com/docs/4.3/examples/checkout/form-validation.css" rel="stylesheet">'+
+        '  </head>'
 	},
-	mypage_body:()=>{
-		return ''
+	mypage_body:x=>{
+		return '<body class="text-center">'+
+		'<div>아이디</div>'+
+		x.mid+
+		'<div>이름</div>'+
+		x.mname+
+		'<div></div>'+
+		'<div></div>'+
+		'<div></div>'+
+		'<div></div>'+
+		'<div></div>'+
+		'<div></div>'
+		
 	}
 };

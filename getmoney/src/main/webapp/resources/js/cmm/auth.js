@@ -32,7 +32,16 @@ auth = (()=>{
                 href : '#',
                 click : e=>{
                 	e.preventDefault();
-                	let data = {mid : $('#mid').val(), mpw : $('#mpw').val(), mname : $('#mname').val()}
+                	let data = {
+                			mid : $('#mid').val(), 
+                			mpw : $('#mpw').val(), 
+                			mname : $('#mname').val(),
+                			email : $('email').val(),
+                			phonenum : $('phonenum').val(),
+                			birth : $('birth').val(),
+                			tooja : $('tooja').val(),
+                			register_date : $('register_date').val(),
+                			tier : $('tier').val()}
                 	alert('전송되는 데이터 : '+data.mid)
                     $.ajax({
 				    	url : _+'/customer/join',
@@ -91,10 +100,16 @@ auth = (()=>{
     	let x = {
     			mid : d.mid,
     			mpw : d.mpw,
-    			mname : d,mname
+    			mname : d.mname,
+    			email : d.email,
+    			phonenum : d.phonenum,
+    			birth : d.birth,
+    			tooja : d.tooja,
+    			register_date : d.register_date,
+    			tier : d.tier
     	}
-    	$('head').html(auth_vue.mypage_form())
-        $('body').html(auth_vue.mypage_form())
+    	$('head').html(auth_vue.mypage_head(x))
+        $('body').html(auth_vue.mypage_body(x))
     }
     return {onCreate, join, login, mypage}
 })();

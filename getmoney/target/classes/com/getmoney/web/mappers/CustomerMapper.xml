@@ -2,8 +2,24 @@
 <!DOCTYPE mapper
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
- <mapper namespace="com.getmoney.web.mappers.CustomerMapper">
-	<select id="countCustomers" resultType="int">
-		SELECT COUNT(*) COUNT FROM CUSTOMER
-	</select>
+
+<mapper namespace="com.getmoney.web.mappers.CustomerMapper">
+    <resultMap type="com.getmoney.web.domains.CustomerDTO" id="cusmap">
+        <id column="MID" property="mid"/>
+        <result column="MPW" property="mpw"/>
+        <result column="MNAME" property="mname"/>
+        <result column="EMAIL" property="email"/>
+        <result column="PHONENUM" property="phonenum"/>
+        <result column="BIRTH" property="birth"/>
+        <result column="TOOJA" property="tooja"/>
+        <result column="REGISTER_DATE" property="register_date"/>
+        <result column="TIER" property="tier"/>
+    </resultMap>
+    <select id="selectbyLoginData" resultMap="cusmap">
+        select * from customer where mid like #{mid} and mpw like #{mpw}
+    </select>
+    <insert id="insertCusDTO" parameterType="com.getmoney.web.domains.CustomerDTO">
+        insert into customer (mid, mpw, mname, email, phonenum, birth, tooja, register_date, tier) 
+        values (#{mid}, #{mpw}, #{mname}, #{email}, #{phonenum}, #{birth}, #{tooja}, #{register_date}, #{tier})
+    </insert>
 </mapper>

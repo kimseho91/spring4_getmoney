@@ -32,7 +32,7 @@ auth = (()=>{
                 href : '#',
                 click : e=>{
                 	e.preventDefault();
-                	let data = {mid : $('#customerid').val(), mpw : $('#password').val()}
+                	let data = {mid : $('#mid').val(), mpw : $('#mpw').val(), mname : $('#mname').val()}
                 	alert('전송되는 데이터 : '+data.mid)
                     $.ajax({
 				    	url : _+'/customer/join',
@@ -57,26 +57,29 @@ auth = (()=>{
     let login =()=>{
     	let x = {css: $.css(), img: $.img()}
 		$('head')
-        .html(auth_vue.login_head(x))
+        .html(auth_vue.login_head())
         $('body')
         .addClass('text-center')
-        .html(auth_vue.login_body(x))
-    
+        .html(auth_vue.login_body())
         $('<button>',{
         	type : "submit",
         	text : "Sign in",
         	click : e => {
         		e.preventDefault()
-        	 let data = {mid : $('#customerid').val(), mpw : $('#password').val()}
-          alert('전송되는 데이터2 :'+data.mid)
+        		let data = {mid : $('#loginid').val(), mpw : $('#loginpw').val()}
         $.ajax({
+        	
           url : _+'/customer/login',
           type : 'POST',
-          dataType : 'json',
           data : JSON.stringify(data),
+          dataType : 'json',
           contentType : 'application/json',
           success : d =>{
-            alert('Login AJAX 성공 아이디 :'+d.mid+', 성공 비번: '+d.mpw)
+            alert(d.mname+' 님 환영합니다')
+            mypage(d)
+          },
+          error : e => {
+	    	alert('Loign AJAX 실패');
           }
         })	
         	}
@@ -84,5 +87,14 @@ auth = (()=>{
         .addClass("btn btn-lg btn-primary btn-block")
         .appendTo('#btn_login')
     }
-    return {onCreate, join, login}
+    let mypage =(d)=>{
+    	let x = {
+    			mid : d.mid,
+    			mpw : d.mpw,
+    			mname : d,mname
+    	}
+    	$('head').html(auth_vue.mypage_form())
+        $('body').html(auth_vue.mypage_form())
+    }
+    return {onCreate, join, login, mypage}
 })();

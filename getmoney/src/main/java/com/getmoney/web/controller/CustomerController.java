@@ -20,37 +20,38 @@ import com.getmoney.web.serviceimpls.CustomerServiceImpl;
 @RequestMapping("/customer/*")
 public class CustomerController {
 	private static final Logger logger = LoggerFactory.getLogger(CustomerController.class);
+	@Autowired Map<String , Object> map;
+	@Autowired CustomerDTO cus;
 	@Autowired CustomerServiceImpl customerService;
-	
-	@GetMapping("/count")
-	public String count(Model model) {
-		int count = customerService.countCustomers();
-		model.addAttribute("count",count);
-		return "home";
-	}
-	
-	@GetMapping("/info")
-	public String findCustomerId(@RequestParam("mid") String mid,
-			@RequestParam("mpw") String mpw) {
-		return "index";
-		// test
-	}
+
 	@PostMapping("/join")
-	public @ResponseBody Map<?,?> join(@RequestBody CustomerDTO customer) {
-		logger.info("AJAX가 보낸 아이디 와 비번 {}",customer.getMid()+", "+customer.getMpw());
-		HashMap<String,String> map = new HashMap<>();
-		map.put("mid", customer.getMid());
-		map.put("mpw", customer.getMpw());
-		logger.info("map에 담긴 아이디 와 비번 {}",map.get("mid")+", "+map.get("mpw"));
-		return map;
+	public @ResponseBody  Map<?,?> join(@RequestBody CustomerDTO param) {
+		logger.info("AJAX가 보낸 아이디와 비번{}",param.getMid() +", "+param.getMpw()+", "+param.getMname());
+		cus.setMid(param.getMid());
+		cus.setMpw(param.getMpw());
+		cus.setMname(param.getMname());
+		customerService.join(cus);
+		HashMap<String,String> map2 = new HashMap<>();
+		map2.put("mid", param.getMid());
+		map2.put("mpw", param.getMpw());
+		map2.put("mname", param.getMname());
+		map2.put("email", param.getEmail());
+		map2.put("phonenum", param.getPhonenum());
+		map2.put("birth", param.getBirth());
+		map2.put("tooja", param.getTooja());
+		map2.put("registerDate", param.getRegister_date());
+		map2.put("tier", param.getTier());
+		logger.info("map2에 담긴 사용자 정보 {}",param.toString());
+		return map2;
 	}
 	@PostMapping("/login")
-	public @ResponseBody Map<?,?> login(@RequestBody CustomerDTO customer){
-		logger.info("Login AJAX가 보낸 아이디 와 비번 {}",customer.getMid()+", "+customer.getMpw());
-		HashMap<String,String> map = new HashMap<>();
-		map.put("mid", customer.getMid());
-		map.put("mpw", customer.getMpw());
-		logger.info("map2에 담긴 아이디 와 비번 {}",map.get("mid")+", "+map.get("mpw"));
-		return map;
+	public @ResponseBody CustomerDTO login(@RequestBody CustomerDTO param){
+		logger.info("로그인 AJAX가 보낸 아이디와 비번{}",param.getMid() +", "+param.getMpw());
+		cus.setMid(param.getMid());
+		cus.setMpw(param.getMpw());
+		logger.info("바티스 가기전 cus에 담긴 사용자 정보 : {}",cus.getMid()+", "+cus.getMpw());
+		cus = customerService.login(cus);
+		logger.info("바티스 후 cus에 담긴 사용자 정보 : {}",cus.toString());
+		return cus;
 	}
 }

@@ -66,5 +66,11 @@ public class CustomerDTO implements Serializable {
 	public static long getSerialversionuid() {
 		return serialVersionUID;
 	}
+	@Override
+	public String toString() {
+		return "CustomerDTO [mid=" + mid + ", mpw=" + mpw + ", mname=" + mname + ", email=" + email + ", phonenum="
+				+ phonenum + ", birth=" + birth + ", tooja=" + tooja + ", register_date=" + register_date + ", tier="
+				+ tier + "]";
+	}
 
 }

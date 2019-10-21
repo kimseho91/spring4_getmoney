@@ -14,17 +14,12 @@ public class CustomerServiceImpl implements CustomerService {
 	@Override
 	public CustomerDTO login(CustomerDTO param) {
 		
-	return null;
+	return customerMapper.selectbyLoginData(param);
 	}
 
 	@Override
-	public boolean join(CustomerDTO param) {
-		return true;
-	}
-
-	@Override
-	public int countCustomers() {
-		return customerMapper.countCustomers();
+	public void join(CustomerDTO param) {
+		 customerMapper.insertCusDTO(param);
 	}
 
 }

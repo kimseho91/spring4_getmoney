@@ -109,15 +109,15 @@ auth_vue = {
 		'      <form class="needs-validation" novalidate="">'+
 		'        <div class="row">'+
 		'          <div class="col-md-6 mb-3">'+
-		'            <label for="customerid">CUSOTMERID</label>'+
-        '				<input type="text" class="form-control" id="customerid" placeholder="" value="" required="">'+
+		'            <label for="mid">CUSOTMERID</label>'+
+        '				<input type="text" class="form-control" id="mid" placeholder="" value="" required="">'+
 		'            <div class="invalid-feedback">'+
 		'              Valid first name is required.'+
 		'            </div>'+
 		'          </div>'+
 		'          <div class="col-md-6 mb-3">'+
-		'            <label for="password">PASSWORD</label>'+
-		            '<input type="text" class="form-control" id="password" placeholder="" value="" required="">'+
+		'            <label for="mpw">PASSWORD</label>'+
+		            '<input type="text" class="form-control" id="mpw" placeholder="" value="" required="">'+
 		'            <div class="invalid-feedback">'+
 		'              Valid last name is required.'+
 		'            </div>'+
@@ -125,14 +125,14 @@ auth_vue = {
 		'        </div>'+
 
 		'        <div class="mb-3">'+
-		'          <label for="username">Username</label>'+
+		'          <label for="mname">Customername</label>'+
 		'          <div class="input-group">'+
 		'            <div class="input-group-prepend">'+
 		'              <span class="input-group-text">@</span>'+
 		'            </div>'+
-		            '<input type="text" class="form-control" id="username" placeholder="Username" required="">'+
+		            '<input type="text" class="form-control" id="mname" placeholder="Mname" required="">'+
 		'            <div class="invalid-feedback" style="width: 100%;">'+
-		'              Your username is required.'+
+		'              Your mname is required.'+
 		'            </div>'+
 		'          </div>'+
 		'        </div>'+
@@ -146,22 +146,22 @@ auth_vue = {
 		'        </div>'+
 
 		'        <div class="mb-3">'+
-		'          <label for="address">Address</label>'+
-		          '<input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">'+
+		'          <label for="phonenum">PHONENUM</label>'+
+		          '<input type="text" class="form-control" id="phonenum" placeholder="1234 Main St" required="">'+
 		'          <div class="invalid-feedback">'+
 		'            Please enter your shipping address.'+
 		'          </div>'+
 		'        </div>'+
 
 		'        <div class="mb-3">'+
-		          '<label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>'+
-		          '<input type="text" class="form-control" id="address2" placeholder="Apartment or suite">'+
+		          '<label for="birth">BIRTH <span class="text-muted">(Optional)</span></label>'+
+		          '<input type="text" class="form-control" id="birth" placeholder="Apartment or suite">'+
 		'        </div>'+
 
 		'        <div class="row">'+
 		'          <div class="col-md-5 mb-3">'+
-		'            <label for="country">Country</label>'+
-		'            <select class="custom-select d-block w-100" id="country" required="">'+
+		'            <label for="tooja">TOOJA </label>'+
+		'            <input type="text" class="form-control" id="tooja" placeholder="" value="" required="">'+
 		'              <option value="">Choose...</option>'+
 		'              <option>United States</option>'+
 		'            </select>'+
@@ -170,8 +170,8 @@ auth_vue = {
 		'            </div>'+
 		'          </div>'+
 		'          <div class="col-md-4 mb-3">'+
-		'            <label for="state">State</label>'+
-		'            <select class="custom-select d-block w-100" id="state" required="">'+
+		'            <label for="register_date">REGISTER_DATE </label>'+
+		'            <input type="text" class="form-control" id="register_date" placeholder="" value="" required="">'+
 		'              <option value="">Choose...</option>'+
 		'              <option>California</option>'+
 		'            </select>'+
@@ -180,7 +180,7 @@ auth_vue = {
 		'            </div>'+
 		'          </div>'+
 		'          <div class="col-md-3 mb-3">'+
-		'            <label for="zip">Zip</label>'+
+		'            <label for="zip">TIER</label>'+
 		            '<input type="text" class="form-control" id="zip" placeholder="" required="">'+
 		'            <div class="invalid-feedback">'+
 		'              Zip code required.'+
@@ -298,10 +298,10 @@ auth_vue = {
 		 ' <form id="form_join" class="form-signin">'+
 		 '   <img class="mb-4" src="/web/resources/img/bootstrap-solid.svg" alt="" width="72" height="72">'+
 		'    <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>'+
-		'    <label for="customerid" class="sr-only">Email address</label>'+
-		    '<input type="text" id="customerid" class="form-control" placeholder="id" required="" autofocus="">'+
-		'    <label for="password" class="sr-only">Password</label>'+
-		  '  <input type="password" id="password" class="form-control" placeholder="Password" required="">'+
+		'    <label for="loginid" class="sr-only">Customerid</label>'+
+		    '<input type="text" id="loginid" class="form-control" placeholder="loginid" required="" autofocus="">'+
+		'    <label for="loginpw" class="sr-only">Password</label>'+
+		  '  <input type="password" id="loginpw" class="form-control" placeholder="loginpw" required="">'+
 		'    <div class="checkbox mb-3">'+
 		   '   <label>'+
 		'        <a id="a_go_join" href="#">GO JOIN</a>'+
@@ -311,5 +311,11 @@ auth_vue = {
 		'    <p class="mt-5 mb-3 text-muted">© 2017-2019</p>'+
 		'  </form>'+
 		'</body>'
+	},
+	mypage_head:()=>{
+		return '<h1>마이 페이지</h1>'
+	},
+	mypage_body:()=>{
+		return ''
 	}
 };

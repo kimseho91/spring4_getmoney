@@ -354,6 +354,5 @@ auth_vue = {
 		'<div></div>'+
 		'<div></div>'+
 		'<div></div>'
-		
 	}
 };
